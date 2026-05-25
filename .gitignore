@@ -1,0 +1,89 @@
+# Compilados Java
+*.class
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+*.bak
+
+# VS Code
+.vscode/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# JARs generados
+*.jar
+*.war
+*.ear
+
+# Archivos de pruebas
+coverage/
+
+# Bytecode compilado
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Extensiones compiladas
+*.so
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Variables de entorno
+.env
+.env.*
+
+# Distribución / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Type checkers
+.mypy_cache/
+.pyre/
+.pytype/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de cache
+.cache/
+
+# Ruff / Black
+.ruff_cache/
+
+# Archivos de profiling
+.prof
