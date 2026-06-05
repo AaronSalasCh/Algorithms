@@ -12,5 +12,6 @@ public class Main2 {
         tree.display();
         tree.remove(5);
         tree.display();
+        System.out.println(tree.sum());
     }
 }

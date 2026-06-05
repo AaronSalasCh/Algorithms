@@ -54,7 +54,7 @@ public class KthLargest {
         Integer[] arr = {2, 24, 8 ,12, 43, 12, 2, 9, 74, 32, 8, 12, 0, 9, 3};
         int k = 4;
         
-        // System.out.println(kth.kthLargest1(arr, k));
+        System.out.println(kth.kthLargest1(arr, k));
         System.out.println(kth.kthLargest2(arr, k));
     }
 }

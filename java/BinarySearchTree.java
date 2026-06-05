@@ -77,7 +77,7 @@ public class BinarySearchTree {
         }
         return root;
     }
-    
+
     // Encontrar el valor mas pequeño debajo de cierto nodo
     private int successor(Node root){
         root = root.right;
@@ -93,5 +93,22 @@ public class BinarySearchTree {
             root = root.right;
         }
         return root.data;
+    }
+
+    public int sum(){
+        return sumHelper(root);
+    }
+
+    public int sumHelper(Node root){
+        if(root == null){
+            return 0;
+        }
+        if(root.left == null && root.right == null){
+            return root.data;
+        }else{
+            int left = sumHelper(root.left);
+            int right = sumHelper(root.right);
+            return left + right;
+        }
     }
 }
